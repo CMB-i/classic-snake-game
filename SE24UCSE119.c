@@ -66,7 +66,8 @@ int main(){
             dirY = 1;
         }
         if (pressed == 'q'){
-            break;
+            printf("Game quit!, Your score is:%d ",score);
+            break; 
         }
         posX += dirX;
         posY += dirY;
